@@ -36,11 +36,12 @@ h1{
     float: left;
     margin: 4%;
     overflow: auto;
-    height: 10em;
+    height: 30em;
     margin-bottom: 1em;
     background-color: #efefef;
     border-top-width: 10px;
     background-color: #8FAEE2;
+    border-radius: 10px;
 }
 
 .column1:hover{
