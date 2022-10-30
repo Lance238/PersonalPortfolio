@@ -139,5 +139,17 @@ input[type=text], select, textarea {
     background-color: #45a049;
 }
 
+h3 {
+    text-align: center;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
 
 
