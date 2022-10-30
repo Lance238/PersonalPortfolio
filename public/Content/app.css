@@ -36,7 +36,7 @@ h1{
     float: left;
     margin: 4%;
     overflow: auto;
-    height: 30em;
+    height: 25em;
     margin-bottom: 1em;
     background-color: #efefef;
     border-top-width: 10px;
@@ -45,19 +45,19 @@ h1{
 }
 
 .column1:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: transform .2s
 
 }
 
 .column2:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: transform .2s
 }
 
 .column3:hover{
     margin-right: 0%;
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: transform .2s
 }
 
@@ -92,28 +92,21 @@ h2{
     background-attachment: fixed;
 }
 
-.project1{
-    height: 20em;
-    margin-bottom: 1em;
-    background-color: #efefef;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    animation: slide-in-from-left 1000ms;
-    background-color: #8FAEE2;
 
-}
-
-.project2{
+.project1, .project2{
     height: 20em;
-    margin-bottom: 1em;
+    margin-top: 3em;
+    margin-bottom: 2em;
     background-color: #efefef;
-    display: flex;
+    
     justify-content: center;
     animation: slide-in-from-right 1000ms;
     background-color: #8FAEE2;
 
+}
+
+.project1{
+    animation: slide-in-from-left 1000ms;
 }
 
 .contactBox{
