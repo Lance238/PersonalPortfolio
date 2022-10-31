@@ -16,36 +16,47 @@
   </div>
 </main>
 
+
+<!-- Link to bootstrap for contact box: https://getbootstrap.com/docs/4.3/components/forms/ -->
 <div class="contactBox">
     <form action=mailto:lance.palogan@ontariotechu.net ?subject=email Form method="post" enctype="text/plain" name="form">
-        
+      
+      <!-- Contact box -->
+      <!-- Email -->
       <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
       </div>
 
+      <!-- Enter first name -->
       <div class="form-group">
         <label for="exampleInputFirstName1">First Name</label> 
         <input type="name" class="form-control" id="exampleInputFirstName1" placeholder="First Name">
       </div>
 
+      <!-- Enter last name -->
       <div class="form-group">
         <label for="exampleInputLastName1">Last Name</label>
         <input type="name" class="form-control" id="exampleInputLastName1" placeholder="Last Name">
       </div>
 
+      <!-- Enter phone number -->
       <div class="form-group">
         <label for="exampleInputFirstName1">Phone number</label>
         <input type="tel" class="form-control" id="exampleInputPhoneNumber1" placeholder="Phone Number">
       </div>
 
+      <!-- Enter comments/feedback -->
       <div class="form-group">
         <label for="exampleInputFirstName1">Comments</label>
         <textarea name = "comments" cols = "50" rows = "6"></textarea>
       </div>
 
+      <!-- Buttons Submit/Reset -->
       <button type="submit" class="btn btn-primary">Submit</button>
+      
+      <input type="reset" value="Reset">
   
     </form>
   </div>
